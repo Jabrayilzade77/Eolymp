@@ -23,6 +23,13 @@ public class DifferenceMaximumAndMinimum {
                 min = arr[i];
             }
         }
-        System.out.println(max - min);
+
+        int sum = 0;
+        for (int i = 0; i < n; i++) {
+            if(arr[i] != max && arr[i] != min){
+                sum += arr[i];
+            }
+        }
+        System.out.println(sum);
     }
 }
