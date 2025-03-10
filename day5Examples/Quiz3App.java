@@ -101,12 +101,12 @@ public class Quiz3App {
         //Alice Steven Charlie
 
 //9)
-        for (int i = 1; i <= 3; i++) {
-            for (int j = 3; j >= i; j--) {
-                System.out.print(i * j + " ");
-            }
-            System.out.println();
-        }
+//        for (int i = 1; i <= 3; i++) {
+//            for (int j = 3; j >= i; j--) {
+//                System.out.print(i * j + " ");
+//            }
+//            System.out.println();
+//        }
 
         //3 2 1
         //6 4
